@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "futura bt";
+    src: url('typo/futura-bt.ttf');
+}
+
+@font-face {
+    font-family: "futura bold";
+    src: url('typo/futurabold.ttf');
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: 'futura bt' !important;
+    background-color: #dbd8e3;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    display: inline-block;
+}
+
+#barre {
+    background-color: #5c5470;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+#barre a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav {
+    background-color: #5c5470;
+    height: 40px;
+    width: 100%;
+}
+
+.accueil {
+    height: 20vh;
+    width: 40vw;
+    border-radius: 30px;
+}
+
+.accueil p,
+.accueil h1 {
+    text-align: center;
+}
+
+.accueil h1 {
+    margin-top: 10px;
+}
+
+img {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+section {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    position: absolute;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    bottom: 0;
+    position: fixed;
+}

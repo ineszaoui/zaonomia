@@ -1,0 +1,296 @@
+@font-face {
+    font-family: "futura bt";
+    src: url('typo/futura-bt.ttf');
+}
+
+@font-face {
+    font-family: "futura bold";
+    src: url('typo/futurabold.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'futura bt' !important;
+}
+
+#btn_gamer {
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+    margin: 0;
+    width: 70px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#btn_gamer a{
+    color: gold;
+    text-decoration: none;
+}
+#btn_gamer:hover {
+    box-shadow: 0 0 0 5px #2a2438;
+    color: #2a2438;
+}
+#btn_gamer:hover a{
+    color: #2a2438;
+}
+
+nav {
+    font-size: 150%;
+    font-weight: bold;
+    background-color: #242b48;
+    padding: 1% 0 1% 0;
+}
+
+ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #05050f;
+}
+#nav-profile a {
+    color: rgb(214, 211, 211);
+}
+.dropbtn {
+    color: rgb(214,211,211);
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: fit-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    font-size: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #242b48;
+}
+
+.dropbtn:hover .dropdown-content {display: flex;, justify-content: center;}
+.dropbtn:hover .dropbtn {background-color: #242b48;}
+#plan {
+    width: 100%;
+    height: 100vh;
+    background-image: url('photos/plan/villemask.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+#bureau {
+    position: absolute;
+    left: 41vw;
+    top: 20vh;
+    width: 75px;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    background-color: #2a2438;
+    border-radius: 10px;
+}
+
+#bureau a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#bureau:hover {
+    box-shadow: 0 0 0 5px gold;
+    color: gold;
+}
+#bureau:hover a{
+    color: gold;
+}
+
+#sus1 {
+    position: absolute;
+    left: 68vw;
+    top: 62vh;
+    width: 75px;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    background-color: #2a2438;
+    border-radius: 10px;
+}
+
+#sus1 a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#sus1:hover {
+    box-shadow: 0 0 0 5px gold;
+    color: gold;
+}
+#sus1:hover a{
+    color: gold;
+}
+
+#sus2 {
+    position: absolute;
+    left: 30vw;
+    top: 45vh;
+    width: 75px;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    background-color: #2a2438;
+    border-radius: 10px;
+}
+#sus2 a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#sus2:hover {
+    box-shadow: 0 0 0 5px gold;
+    color: gold;
+}
+#sus2:hover a{
+    color: gold;
+}
+
+#sus3 {
+    position: absolute;
+    left: 38vw;
+    top: 54vh;
+    width: 75px;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    background-color: #2a2438;
+    border-radius: 10px;
+}
+#sus3 a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#sus3:hover {
+    box-shadow: 0 0 0 5px gold;
+    color: gold;
+}
+#sus3:hover a{
+    color: gold;
+}
+
+#sus4 {
+    position: absolute;
+    left: 66vw;
+    top: 45vh;
+    width: 75px;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    padding: 15px;
+    background-color: #2a2438;
+    border-radius: 10px;
+}
+#sus4 a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#sus4:hover {
+    box-shadow: 0 0 0 5px gold;
+    color: gold;
+}
+#sus4:hover a{
+    color: gold;
+}
+
+#bar {
+    position: absolute;
+    left: 25vw;
+    top: 75vh;
+    width: 75px;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    background-color: #2a2438;
+    border-radius: 10px;
+}
+#bar a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#bar:hover {
+    box-shadow: 0 0 0 5px gold;
+    color: gold;
+}
+#bar:hover a{
+    color: gold;
+}
+
+#labo {
+    position: absolute;
+    left: 90vw;
+    top: 70vh;
+    width: 75px;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    background-color: #2a2438;
+    border-radius: 10px;
+}
+#labo a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#labo:hover {
+    box-shadow: 0 0 0 5px gold;
+    color: gold;
+}
+#labo:hover a{
+    color: gold;
+}
+
+#coul {
+    position: absolute;
+    left: 60vw;
+    top: 72vh;
+    width: 75px;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    background-color: #2a2438;
+    border-radius: 10px;
+}
+#coul a{
+     color: whitesmoke;
+     text-decoration: none;
+ }
+
+#coul:hover {
+    box-shadow: 0 0 0 5px gold;
+}
+#coul:hover a{
+    color: gold;
+}

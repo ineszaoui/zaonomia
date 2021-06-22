@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "futura bt";
+    src: url('typo/futura-bt.ttf');
+}
+
+@font-face {
+    font-family: "futura bold";
+    src: url('typo/futurabold.ttf');
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#enigme_img {
+    /* padding-bottom: 290px;
+    padding-right: 420px; */
+    top: 400px;
+    right: 650px;
+    max-width: 100%;
+    position: absolute;
+}
+
+#organe_img {
+    top: 100px;
+    right: 460px;
+    max-width: 40%;
+    pointer-events: none;
+    position: absolute;
+}
+
+
+/* 
+#organe_img {
+    /* padding-bottom: 290px;
+    padding-right: 420px; 
+
+top: 70px;
+right: 560px;
+max-width: 30%;
+pointer-events: none;
+position: absolute;
+
+}*/
+
+#labo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url(photos/corps.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "futura bt";
+    src: url('typo/futura-bt.ttf');
+  }
+  
+
+body{
+    overflow: hidden;
+    margin: 0;
+}
+
+#tout{
+    display: flex;
+    align-items: center;
+    width: 200vw;
+    height: 100vh;
+}
+
+
+
+
+#back{
+    width: 200vw;
+    height: 100vh;
+    background-image: url(photos/porte_crime_voisin.png);
+    background-size: cover;
+    background-position: left bottom;
+    transition: transform 0.6s ease;
+
+}
+
+.bout{
+    background-color: transparent;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+#bas1{
+    padding: 2vw;
+    position: absolute;
+    z-index: 3;
+    margin-right: 94vw;
+}
+
+
+#bas2{
+    padding: 2vw;
+    position: absolute;
+    z-index: 3;
+    margin-left: 94vw;
+}
+
+@-webkit-keyframes arrow_anim {
+    from { margin-top: 20px; }
+      to { margin-top: 25px; }
+ }
+ 
+ @-moz-keyframes arrow_anim {
+    from { margin-top: 20px; }
+      to { margin-top: 25px; }
+ }
+ 
+ @-ms-keyframes arrow_anim {
+    from { margin-top: 20px; }
+      to { margin-top: 25px; }
+ }
+ 
+ @-o-keyframes arrow_anim {
+    from { margin-top: 20px; }
+      to { margin-top: 25px; }
+ }
+ 
+ @keyframes arrow_anim {
+    from { margin-top: 20px; }
+      to { margin-top: 25px; }
+ }
+
+ #ret{
+     position: absolute;
+     z-index: 3;
+     margin-top: 10px;
+     margin-left: 10px;
+ }
+ 
+ #arrow {
+     border-left: 10px solid transparent;
+     border-right: 10px solid transparent;
+     border-top: 10px solid white;
+   height: 0; 
+   margin: 60px 0px 0px 360px;
+   position: absolute;
+   width: 0; 
+   
+   -webkit-animation: arrow_anim .3s steps(3) infinite;
+   -moz-animation: arrow_anim .3s steps(3) infinite;
+   -ms-animation: arrow_anim .3s steps(3) infinite;
+   -o-animation: arrow_anim .3s steps(3) infinite;
+   animation: arrow_anim .3s steps(3) infinite;
+ }
+
+ .bi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    position: absolute;
+    margin-top: 85vh;
+    margin-left: 50vw;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: "futura bt";
+ }
+
+ .bi:hover{
+     background-color: black;
+ }
+
+
+#dialog {
+    z-index: 3;
+    margin-left: 2vw;
+    margin-top: 85vh;
+    height: 20px;
+    background: #1c1c1c;
+    border-radius: 5px;
+    box-shadow: 0 0 0 6px white, 0 0 0 12px #251C00;
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    width: 400px;
+    position: absolute;
+ }

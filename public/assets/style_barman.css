@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "futura bt";
+    src: url('typo/futura-bt.ttf');
+}
+
+@font-face {
+    font-family: "futura bold";
+    src: url('typo/futurabold.ttf');
+}
+
+#tournesol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url(photos/barentier.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 0px;
+}
+
+#ret{
+    position: absolute;
+    z-index: 3;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#devant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url(photos/barbas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 0px;
+    z-index: 1;
+    position: absolute;
+}
+
+#vid {
+    z-index: 0;
+    padding-left: 25vw;
+    position: absolute;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#choix1 {
+    font-family: 'futura bt', bold;
+    text-align: center;
+    width: 15vw;
+    height: 5vh;
+    background: #1c1c1c;
+    border-radius: 5px;
+    box-shadow: 0 0 0 6px white, 0 0 0 12px #251C00;
+    color: white;
+    font-size: 18px;
+    padding: 20px 20px 20px 20px;
+    z-index: 3;
+    position: absolute;
+    left: 10vw;
+    bottom: 10vh;
+}
+
+#choix2 {
+    font-family: 'futura bt', bold;
+    text-align: center;
+    width: 15vw;
+    height: 5vh;
+    background: #1c1c1c;
+    border-radius: 5px;
+    box-shadow: 0 0 0 6px white, 0 0 0 12px #251C00;
+    color: white;
+    font-size: 18px;
+    padding: 20px 20px 20px 20px;
+    z-index: 3;
+    position: absolute;
+    left: 70vw;
+    bottom: 10vh;
+}
+
+#choix1 a,
+#choix2 a {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    width: 20vw;
+    left: -1vw;
+    top: 3vh;
+}
+
+#dialogue {
+    font-family: 'futura bt', bold;
+    text-align: center;
+    width: 40vw;
+    height: 5vh;
+    background: #1c1c1c;
+    border-radius: 5px;
+    box-shadow: 0 0 0 6px white, 0 0 0 12px #251C00;
+    color: white;
+    font-size: 18px;
+    padding: 20px 20px 20px 20px;
+    z-index: 3;
+    position: absolute;
+    left: 30vw;
+    bottom: 10vh;
+}
+
+#dialogue a {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    width: 20vw;
+    left: -1vw;
+    top: 3vh;
+}

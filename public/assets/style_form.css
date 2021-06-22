@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "futura bt";
+    src: url('typo/futura-bt.ttf');
+}
+
+@font-face {
+    font-family: "futura bold";
+    src: url('typo/futurabold.ttf');
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'futura bt' !important;
+    scroll-behavior: smooth;
+}
+
+input {
+    border: none;
+    border-bottom: #4a4a4a 1px solid;
+    padding: 20px;
+    background-color: transparent;
+}
+
+button {
+    padding: 4px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    font-size: 20px;
+    background-color: #5c5470;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-top: 8%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin: 3% 0 3% 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+}
+
+p a {
+    text-decoration: none;
+    color: #5c5470;
+}
+
+p a:hover {
+    border-bottom: 4px solid #5c5470;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.body {
+    height: 100vh;
+}
